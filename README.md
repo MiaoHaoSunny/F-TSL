@@ -12,8 +12,8 @@ Code for the paper: Federated Trajectory Similarity Learning with Privacy-Preser
 
 ## Datasets
 
-* These are open-source trajectory datasets [TDrive](https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/),Rome.
-* We provided the road network data and map-matching result data for both tdrive and rome datasets.
+* We use open-sourced trajectory datasets [TDrive](https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/), Rome.
+* We provided the road network data and map-matching result data for both Tdrive and TaxiRome datasets. For full datasets, please refer to [GoogleDrive](https://drive.google.com/drive/folders/1LV4aWEgmGZ0gf5H7IvskVnHiUTEdoe1O?usp=drive_link).
 * More data can be obtained from [OpenStreetMap (OSM)](https://www.openstreetmap.org/)
 ## Reproducibility & Training
 
