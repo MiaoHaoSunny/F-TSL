@@ -1,6 +1,6 @@
 # F-TSL
 
-Code for the paper: Federated Trajectory Similarity Learning with Privacy-Preserving Clustering
+Code for the paper: Federated Trajectory Similarity Learning with Privacy-Preserving Clustering (Under Review)
 
 
 ## Requirements
