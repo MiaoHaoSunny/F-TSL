@@ -41,6 +41,13 @@ Code for the paper: Federated Trajectory Similarity Learning with Privacy-Preser
    ```shell
    python federated_main.py 
    ```
+
+# Baseline setting
+- **FC+FL**. The learning rate is set to $0.001$. The model stacks three Fully Connected (FC) layers, each with 64 hidden feature dimensions.
+- **RNN+FL**. The learning rate is set to $0.001$. The number of hidden feature dimensions of the three RNN layers is set to 128.
+- **GCN+FL**. The learning rate is set to $0.001$. The model contains two GCN layers, each with 64 hidden feature dimensions.
+- **GTS+FL**. The hidden feature dimension of POI embedding layer is set to $128$. The parameters $p$ and $q$ in the sampling strategy are set to $1$. In addition, the hidden feature dimension of GNN embedding layer and trajectory embedding layer is selected from the range $\{32, 64, 128, 256\}$. The learning rate is set to $0.001$.
+- **ST2Vec+FL**. The learning rate is set to $0.001$. The number of hidden feature dimensions of the node2vec layer, GCN embedding layer, date2vec layer, and LSTM layer is set to $64, 64, 64,$ and $128$. The early stop is set to $50$.
 # The effect of cluster numbers
 <img src="img/number_of_clients.png" width="80%" height="auto">
 
