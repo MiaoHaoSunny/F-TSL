@@ -1,7 +1,4 @@
-# ICDE 2025 \| F-TSL
-
-Code for the paper: Federated Trajectory Similarity Learning with Privacy-Preserving Clustering
-
+# ICDE 2025 \| Federated Trajectory Similarity Learning with Privacy-Preserving Clustering
 
 ## Requirements
 
